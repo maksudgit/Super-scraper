@@ -1,0 +1,40 @@
+.video {
+    display: flex;
+    max-width: 450px;
+    min-height: 90px;
+  }
+  .video_text {
+    width: 100%;
+  }
+  .why_content_scraper {
+    display: flex;
+    margin-bottom: 0px;
+    line-height: 35px;
+    width: fit-content;
+  }
+
+  .groups {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .groups p {
+    font-size: 20px !important;
+  }
+  .cards {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+  }
+  .img_play {
+    flex-shrink: 0;
+    width: 60px;
+    float: left;
+    display: inline-block;
+    margin-right: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+  }

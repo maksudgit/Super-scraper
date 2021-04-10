@@ -1,0 +1,94 @@
+
+ 
+ 
+ @media screen and (max-width: 991px) {
+    .credit_button {
+      font-size: 22px !important;
+    }
+    @media screen and (max-width: 530px) {
+      .zui-table tbody tr td p {
+        font-size: 24px !important;
+      }
+
+      .space_top.extra {
+        display: none;
+      }
+      .info {
+        width: 90%;
+      }
+      .big_img{
+        max-width: 100%;
+        margin-left: -15px;
+        min-width: 375px;
+      }
+    }
+
+    @media screen and (max-width: 450px) {
+      .zui-table tbody tr td p {
+        font-size: 20px !important;
+      }
+
+      .credit_button {
+        font-size: 22px;
+      }
+      .space_top.extra {
+        display: none;
+      }
+      .info {
+        width: 90%;
+      }
+      .big_img{
+        max-width: 100%;
+        margin-left: -15px;
+        min-width: 375px;
+      }
+    }
+    @media screen and (max-width: 390px) {
+      .credit_button {
+        font-size: 17px !important;
+        font-weight: 800;
+      }
+      .zui-table tbody tr td p {
+        font-size: 18px !important;
+      }
+
+      td .paypal_img {
+        width: 70px;
+      }
+      .space_top.extra {
+        display: none;
+      }
+      .info {
+        width: 90%;
+      }
+      .big_img{
+        max-width: 100%;
+        margin-left: -15px;
+        min-width: 375px;
+      }
+    }
+    @media screen and (max-width: 325px) {
+      .credit_button {
+        font-size: 16px !important;
+        font-weight: 800;
+      }
+      .zui-table tbody tr td p {
+        font-size: 17px !important;
+      }
+
+      td .paypal_img {
+        width: 60px;
+      }
+      .space_top.extra {
+        display: none;
+      }
+      .info {
+        width: 90%;
+      }
+      .big_img{
+        max-width: 100%;
+        margin-left: -15px;
+        min-width: 375px;
+      }
+    }
+  }
